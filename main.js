@@ -17,3 +17,7 @@ hamburgerBtn.addEventListener("click", () => {
 //     hamburgerLists.classList.add("hidden");
 //   }
 // });
+
+window.onload = function () {
+  document.body.classList.add("loaded");
+};
