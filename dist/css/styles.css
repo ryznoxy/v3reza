@@ -76,9 +76,7 @@ body {
 .loaded .preloader {
       opacity: 0;
       visibility: hidden;
-      transition: opacity 1.5s, visibility 1.5s;
-      transition-timing-function: ease-in-out;
-      transition-delay: 500ms;
+      transition: opacity 0.5s, visibility 0.5s;
     }
     .preloader {
       position: fixed;
