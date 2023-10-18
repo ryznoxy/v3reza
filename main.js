@@ -22,6 +22,20 @@ hamburgerBtn.addEventListener("click", () => {
 //   document.body.classList.add("loaded");
 // };
 
+window.onscroll = function () {
+  const header = document.querySelector("nav");
+  const fixedNav = header.offsetTop;
+  const toTop = document.querySelector("#to-top");
+
+  if (window.pageYOffset > fixedNav) {
+    toTop.classList.remove("hidden");
+    toTop.classList.add("flex");
+  } else {
+    toTop.classList.remove("flex");
+    toTop.classList.add("hidden");
+  }
+};
+
 const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
