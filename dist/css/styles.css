@@ -72,3 +72,8 @@ body {
         transform: rotate(360deg)scale(1);
       }
     }
+.active-link {
+text-decoration:underline wavy white;
+background-color: rgba(0, 0, 0, 0.9);
+color: white;
+}
