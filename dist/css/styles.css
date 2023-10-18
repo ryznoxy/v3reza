@@ -74,6 +74,5 @@ body {
     }
 .active-link {
 text-decoration:underline wavy white;
-background-color: rgba(0, 0, 0, 0.9);
-color: white;
+background-color: white;
 }
